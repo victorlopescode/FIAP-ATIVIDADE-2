@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A90C8D15-AB6D-E8FC-3E33-6F3B3F876097" name="CULTURA">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:07:28 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CULTURA" id="DDFBE032-2ACE-8399-224C-EFC5F4DDB518">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:08:56 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CULTURA" id="4CBCE760-77E5-D55C-72B1-9E2A4646C187">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:08:56 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_CULTURA" id="7291B651-4A59-7A91-B117-380DB9DE884F">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:08:56 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="69B829DA-0239-F7F8-1DED-E26D71B9C8A7" name="CULTURA_PK">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:08:56 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DDFBE032-2ACE-8399-224C-EFC5F4DDB518"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="051F294B-A14B-6F83-42B0-27EBB23F60E6" name="AJUSTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="78DBE7B9-7EB0-DA9A-96FC-67C91E7DE012" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="A90C8D15-AB6D-E8FC-3E33-6F3B3F876097" name="CULTURA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="78DBE7B9-7EB0-DA9A-96FC-67C91E7DE012" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="443EA5D4-E022-D7EA-F4CC-7B75E9120556" name="LEITURA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="78DBE7B9-7EB0-DA9A-96FC-67C91E7DE012" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="A450FE7F-909F-6E16-1294-0DD49B16C86A" name="SENSOR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="78DBE7B9-7EB0-DA9A-96FC-67C91E7DE012" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

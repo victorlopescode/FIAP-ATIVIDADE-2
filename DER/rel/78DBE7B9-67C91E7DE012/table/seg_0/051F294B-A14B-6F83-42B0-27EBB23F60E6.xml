@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="051F294B-A14B-6F83-42B0-27EBB23F60E6" name="AJUSTE">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:12:23 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_AJUSTE" id="F54CE319-B813-36DB-64E8-39CA83D1BE4D">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:14:38 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CULTURA_1" id="35D8DFE7-1D19-C75F-32BE-6BDD91CBE618">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:14:38 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATA_HORA" id="337C8F4C-B07C-417A-D792-896B63A18A6D">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:14:38 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTIDADE_AGUA" id="25616E37-956D-F96D-D5F1-695A63037580">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:14:38 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTIDADE_NUTRIENTE_FOSFORO" id="A484D979-0C57-D18C-3BA0-CE0FAAD59DA6">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:14:38 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QUANTIDADE_NUTRIENTE_POTASSIO" id="14366240-F873-284C-BA2C-24CA0F0005B5">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:14:38 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F360BC7D-5249-17A1-DF43-9EE190A7FE3C" name="AJUSTE_PK">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:14:38 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F54CE319-B813-36DB-64E8-39CA83D1BE4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<impliedForeignKeys itemClass="oracle.dbtools.crest.model.design.relational.ImpliedForeignKey">
+<impliedForeignKey name="ImpliedForeignKey_1v1" id="B77A3855-88AE-0D4B-9FB8-6B547E523767">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:22:47 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<referredTableID>A90C8D15-AB6D-E8FC-3E33-6F3B3F876097</referredTableID>
+<referredTableLongName>CULTURA</referredTableLongName>
+</impliedForeignKey>
+</impliedForeignKeys>
+</Table>

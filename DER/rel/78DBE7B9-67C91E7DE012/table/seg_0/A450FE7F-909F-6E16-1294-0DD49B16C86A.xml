@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A450FE7F-909F-6E16-1294-0DD49B16C86A" name="SENSOR">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:03:13 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_SENSOR" id="93B6F94F-5C06-A080-D38F-6DF575585A55">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:05:41 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_SENSOR" id="EE7B0310-70CC-7FF3-094A-A7972355D3C4">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:06:38 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOCALIZACAO" id="C67B1F88-A3C4-1BB5-F64D-2DD289F2290B">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:06:56 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA451BE5-AAB7-85C0-B84B-E9EDF63BD3EB" name="Sensor_PK">
+<createdBy>victo</createdBy>
+<createdTime>2025-04-22 20:05:41 UTC</createdTime>
+<ownerDesignName>DER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="93B6F94F-5C06-A080-D38F-6DF575585A55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
