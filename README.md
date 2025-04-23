@@ -54,6 +54,7 @@ CULTURA 1:N AJUSTE
 Uma cultura pode ter vários ajustes.
 
 🛠️ Justificativas dos Tipos de Dados
+
 NUMBER para IDs: facilita o relacionamento e garante unicidade.
 
 VARCHAR2 para texto: usado em nomes, tipos e localizações.
