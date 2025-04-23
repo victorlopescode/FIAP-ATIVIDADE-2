@@ -1,11 +1,13 @@
 📋 MER - Sistema de Agricultura Digital - FarmTech Solutions
 
 📚 Descrição
+
 Este projeto modela o banco de dados de uma solução de Agricultura Digital que utiliza sensores de umidade, pH e nutrientes (fósforo e potássio) para otimizar a irrigação e aplicação de vitaminas nas plantações.
 
 O objetivo do banco de dados é armazenar e analisar os dados coletados pelos sensores, permitindo ajustes e otimização de recursos agrícolas.
 
 🏛️ Entidades e Atributos
+
 1. SENSOR
 ID_SENSOR (PK) - NUMBER
 
@@ -60,7 +62,8 @@ FLOAT para valores medidos (quantidade de água, nutrientes e valores de leitura
 
 TIMESTAMP para registrar data e hora precisos de leituras e ajustes.
 
-🎯 Objetivos Atendidos
+🎯 Objetivos:
+
 Armazenar leituras de sensores.
 
 Controlar ajustes de aplicação de água e nutrientes.
