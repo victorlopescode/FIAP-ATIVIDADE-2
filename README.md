@@ -69,6 +69,3 @@ Armazenar leituras de sensores.
 Controlar ajustes de aplicação de água e nutrientes.
 
 Permitir análise histórica para otimização da produção agrícola.
-
-📈 Diagrama Entidade-Relacionamento (DER)
-(Inserir imagem do DER gerado no SQL Developer Data Modeler aqui no repositório)
